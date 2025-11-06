@@ -35,18 +35,21 @@ El modelo matemático de tres EDOs de primer orden es un modelo mecanicista de c
 puede modelizar como un proceso dináico no lineal. donde x1(t) representa el compartimento de células precursoras eritroides altamente proliferantes con respecto a la eritropoyetina, x2(t)
 describe el compartimento no proliferante de células precursoras eritroides con respecto a la eritropoyetina, y x3(t) el compartimento para los eritrocitos maduros y reticulocitos sanguíneos.
 
+Con respecto a los parámetros, X0 refleja la cantidad absoluta de células que se destinan al linaje eritroide y que maduran en el primer compartimento de cÈlulas precursoras eritroides. Las tasas de
+transición y las tasas de mortalidad entre los compartimentos están dadas por k1, k2 y alpha, estas tasas son independientes de la hormona eritropoyetina. La compensación de la pérdida de sangre se describe
+mediante un término de retroalimentación de los eritrocitos a las células en proliferación basado en la pérdida fraccional de eritrocitos. Con base en lo anterior, se introducen los parámetros
+y beta, que se utilizan para la descripción de las características individuales de la eritropoyesis. Se asume que cada individuo tiene un recuento medio de eritrocitos indicado por el parámetro Base.
+Palabras clave: Regeneración de glóbulos rojos, Sistema de EDOs, parámetros de estimación, Simulaciones numéricas.
+
 
 ## Lista de archivos incluidos en el repositorio
 
 1. Cuaderno computacional de MATLAB \[.mlx].
-2. Imagen de la simulación sin transfución.
-3. Imagen de la simulación con transfución
-4. Imágenes de las simulaciones \[.pdf].
+2. Imagen de la simulación sin transfución \[.pdf].
+3. Imagen de la simulación con transfución \[.pdf].
 
 ## Referencias
 
 \[1] P. A. Valle, Syllabus para Modelado de Sistemas Fisiológicos, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B.C., México, 2025. Permalink: https://biomath.xyz/course/
 
-\[2] M. C. Khoo, Physiological Control Systems Analysis Simulation, and Estimation, 2nd ed. Piscataway, New Jersey, USA: IEEE Press, 2018, Section 4, Page 93.
-
-\[3] N. S. Nise, Control Systems Engineering, 8th ed. Hoboken, New Jersey, USA: John Wiley \& Sons, 2020.
+\[2] Tetschke, M., Lilienthal, P., Pottgiesser, T., Fischer, T., Schalk, E., & Sager, S. (2018). Mathematical modeling of RBC count dynamics after blood loss. Processes, 6(9), 157. https://doi.org/10.3390/pr6090157
