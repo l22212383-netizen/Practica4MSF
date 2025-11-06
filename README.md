@@ -40,6 +40,8 @@ transición y las tasas de mortalidad entre los compartimentos están dadas por 
 mediante un término de retroalimentación de los eritrocitos a las células en proliferación basado en la pérdida fraccional de eritrocitos. Con base en lo anterior, se introducen los parámetros
 y beta, que se utilizan para la descripción de las características individuales de la eritropoyesis. Se asume que cada individuo tiene un recuento medio de eritrocitos indicado por el parámetro Base.
 
+Palabras clave: Regeneración de glóbulos rojos, Sistema de EDOs, parámetros de estimación, Simulaciones numéricas.
+
 ## Condiciones iniciales
 x1(0) = 
    [59.5225,   61.1342,   56.0637,   61.0104,   61.7191,   56.0965,   57.7169,   60.9007,   60.7727,   61.9296].
@@ -54,8 +56,6 @@ x3(0) =
 gamma = [0.769,0.388,0.510,0.590,0.262,0.324,0.356,0.089,0.243,0.057].
 
 beta = [1.650,0.867,1.617,2.615,1.518,2.676,0.891,2.557,0.925,0.089].
-
-Palabras clave: Regeneración de glóbulos rojos, Sistema de EDOs, parámetros de estimación, Simulaciones numéricas.
 
 
 ## Lista de archivos incluidos en el repositorio
