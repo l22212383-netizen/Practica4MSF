@@ -1,0 +1,22 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: MATLAB; SPYDER
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Iván De Jesús
+    family-names: Fonseca Díaz
+    email: l22212383@tectijuana.edu.mx
+    affiliation: TECNM/ITT
+url: 'https://github.com/l22212383-netizen/Practica4MSF'
+keywords:
+  - Sistema de EDOs
+  - Simulaciones numéricas
+  - Parámetros de estimación
+  - Regeneración de glóbulos rojos
+license: BSD-2-Clause
+version: '1.0'
